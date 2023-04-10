@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cv {
+    display: flex;
+    height: 29.7cm;
+    width: 21cm;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.cv  .img{
+    border-radius: 50%;
+}
+.cv  .pic{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.cv .dob{
+    padding-top: 10px;
+    
+}
+.cv .lef{
+    width: 37%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.cv .righ{
+    width: 63%;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.cv .marital{
+    padding-top: 10px;
+}
+.cv .city{
+    padding-top: 10px;
+}
+.cv .contact{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.cv .sp{
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+.cv .llanguage{
+    padding-top: 10px;
+}
+.cv .el{
+    padding-top: 5px;
+}
+.cv .planguage{
+    padding-top: 10px;
+}
+.cv .lmtr{
+    display: flex;
+}
+.cv .mtr{
+    padding-left: 10px;
+}
+.cv .hobby{
+    padding-top: 10px;
+}
+.cv .name{
+    padding-top: 20px;
+}
+.cv .webdev{
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+.cv .detail{
+    padding-top: 20px;
+    text-align: justify;
+}
+.cv .education{
+    padding-top: 20px;
+}
+.cv .experience{
+    padding-top: 10px;
+    text-align: justify;
+}
+.cv .project{
+    padding-top: 10px;
+    text-align: justify;
+}
+.cv .head{
+    height: 100px;
+    background: url(head.jpg);
+}
+.cv .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.cv .logo{
+    color: #ff7200;
+    font-size: 37px;
+    font-family: Arial;
+    margin-left: 5px;
+    margin-top: 13px;
+}
+.cv .search{
+    float: left;
+    width: 330px;
+    margin-left: 350px;
+}    
+.cv .sear{
+    height: 40px;
+    width: 200px;
+    font-family: 'Times New Roman';
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px; 
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;   
+}
+.cv .btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.cv .btn:focus{
+    outline: none;
+}
+.cv .sear:focus{
+    outline: none;
+}
+.cv .menu{
+    float: left;
+    width: 400px;
+    height: 70;
+}
+.cv .btns{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 26px;
+    list-style: none;
+}
+.cv .btns li a{
+    text-decoration: none;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 17px;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+}
+.cv .btns li a:hover{
+    color: #ff7200;
+}
